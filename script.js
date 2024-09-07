@@ -16,3 +16,22 @@ document.addEventListener("DOMContentLoaded", function() {
         }, Math.random() * 3000 + 2000); 
     });
 });
+document.addEventListener("DOMContentLoaded", function() {
+    const sections = document.querySelectorAll('.art-container, .article-card');
+
+    const observer = new IntersectionObserver(entries => {
+        entries.forEach(entry => {
+            if (entry.isIntersecting) {
+                entry.target.classList.add('visible');
+            } else {
+                entry.target.classList.remove('visible');
+            }
+        });
+    }, {
+        threshold: 0.1
+    });
+
+    sections.forEach(section => {
+        observer.observe(section);
+    });
+});
