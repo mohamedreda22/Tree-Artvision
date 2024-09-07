@@ -1,3 +1,11 @@
+fetch('navbar.html').then(response=>response.text()).then(data=>{
+    document.getElementById('navbar').innerHTML=data;
+});
+
+fetch('footer.html').then(response=>response.text()).then(data=>{
+    document.getElementById('footer').innerHTML=data;
+});
+
 document.addEventListener("DOMContentLoaded", function() {
     const artContainers = document.querySelectorAll('.art-container');
 
@@ -35,3 +43,15 @@ document.addEventListener("DOMContentLoaded", function() {
         observer.observe(section);
     });
 });
+const artThumbnails = document.querySelectorAll('.art-thumbnails');
+
+artThumbnails.forEach(thumbnail => {
+    thumbnail.addEventListener('mouseover', () => {
+        thumbnail.style.opacity = '1';
+    });
+
+    thumbnail.addEventListener('mouseout', () => {
+        thumbnail.style.opacity = '0.5';
+    });
+});
+ 

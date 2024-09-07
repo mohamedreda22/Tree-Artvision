@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="artwork.css">
+    <link rel="stylesheet" href="style.css">
+    <title>Artwork Page</title>
+    <script>
+        async function loadArtworks() {
+            const response = await fetch('data.json');
+            const data = await response.json();
+
+            const artPiecesContainer = document.querySelector('.art-pieces');
+            data.artwork.forEach(art => {
+                const artPieceDiv = document.createElement('div');
+                artPieceDiv.className = 'art-piece';
+
+                const img = document.createElement('img');
+                img.src = art.mainImage;
+                img.alt = art.details.title;
+
+                const galleryLayerDiv = document.createElement('div');
+                galleryLayerDiv.className = 'gallery-layer';
+
+                const title = document.createElement('h3');
+                title.textContent = art.details.title;
+
+                const description = document.createElement('p');
+                description.textContent = art.details.description;
+
+                const dimensions = document.createElement('p');
+                dimensions.textContent = art.details.dimensions;
+
+                const buttonLink = document.createElement('a');
+                buttonLink.href = `artDetails.html?id=${art.id}`;
+                buttonLink.className = 'button-link';
+                buttonLink.role = 'button';
+                buttonLink.innerHTML = '<span>Show More</span>';
+
+                galleryLayerDiv.appendChild(title);
+                galleryLayerDiv.appendChild(description);
+                galleryLayerDiv.appendChild(dimensions);
+                galleryLayerDiv.appendChild(buttonLink);
+
+                artPieceDiv.appendChild(img);
+                artPieceDiv.appendChild(galleryLayerDiv);
+
+                artPiecesContainer.appendChild(artPieceDiv);
+            });
+        }
+
+        document.addEventListener('DOMContentLoaded', loadArtworks);
+    </script>
+</head>
+<body>
+    <div id="navbar"></div>
+    <div class="artwork-section">
+        <h1 class="heading-title">Art Pieces</h1>
+        <p class="service-text" style="color: #565656;">
+            Decorative Pieces are made to be used as decorations. You can contact us to buy them.
+        </p>
+        <div class="art-pieces">
+            <!-- Artwork items will be dynamically inserted here -->
+        </div>
+    </div>
+    <div id="footer"></div>
+    <script src="script.js"></script>
+</body>
+</html>

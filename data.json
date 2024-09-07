@@ -1,0 +1,124 @@
+{
+    "artwork": [
+        {
+            "id": 1,
+            "thumbnails": [
+                "images/Hv8YMw7.jpg",
+                "images/Hv8YGuS.jpg",
+                "images/Hv8YE92.jpg"
+            ],
+            "mainImage": "images/Hv8YMw7.jpg",
+            "details": {
+                "title": "imaginary world 3/4",
+                "description": "“It's not what you look at that matters, it's what you see.”",
+                "dimensions": "50x60cm",
+                "backgroundMaterial": "Wood",
+                "colorType": "Oil colors",
+                "inquiryLink": "https://www.facebook.com/Treeartvision"
+            }
+        },
+        {
+            "id": 2,
+            "thumbnails": [
+                "https://iili.io/HNTNmo7.jpg",
+                "https://iili.io/HNTvIUu.jpg",
+                "https://iili.io/HNTNDtS.jpg"
+            ],
+            "mainImage": "https://iili.io/HNTNmo7.jpg",
+            "details": {
+                "title": "Ramadan vibe",
+                "description": "Old is forever gold.",
+                "dimensions": "50x60",
+                "backgroundMaterial": "Wood",
+                "colorType": "Oil colors",
+                "inquiryLink": "https://www.facebook.com/Treeartvision"
+            }
+        },{
+            "id": 3,
+            "thumbnails": [
+                "https://iili.io/HNcvobt.jpg",
+                "https://iili.io/HNcvneI.jpg",
+                "https://iili.io/HNcvzzX.jpg"
+            ],
+            "mainImage": "https://iili.io/HNcvobt.jpg",
+            "details": {
+                "title": "`Imaginary world` 2/4",
+                "description": "Dreamy",
+                "dimensions": "50x60",
+                "backgroundMaterial": "Wood",
+                "colorType": "Oil colors",
+                "inquiryLink": "https://www.facebook.com/Treeartvision"
+            }
+        },{
+            "id": 4,
+            "thumbnails": [
+                "https://iili.io/HNcOOmX.jpg",
+                "https://iili.io/HNcOkIn.jpg",
+                "https://iili.io/HNcOvXs.jpg"
+            ],
+            "mainImage": "https://iili.io/HNcOOmX.jpg",
+            "details": {
+                "title": "poetry",
+                "description": "Still life with a bit of color",
+                "dimensions": "50x60",
+                "backgroundMaterial": "Wood",
+                "colorType": "Oil colors",
+                "inquiryLink": "https://www.facebook.com/Treeartvision"
+            }
+        },{
+            "id": 5,
+            "thumbnails": [
+                "https://iili.io/HNcOvXs.jpg",
+                "https://iili.io/HnyloOu.jpg",
+                "https://iili.io/HnylTWx.jpg",
+                "https://iili.io/HnylxDb.jpg"
+            ],
+            "mainImage": "https://iili.io/HNcOvXs.jpg",
+            "details": {
+                "title": "country gurl",
+                "description": "Eyes have a language of their own",
+                "dimensions": "50x60",
+                "backgroundMaterial": "Wood",
+                "colorType": "Oil colors",
+                "inquiryLink": "https://www.facebook.com/Treeartvision"
+            }
+        },{
+            "id": 6,
+            "thumbnails": [
+                "https://iili.io/HnpsgFR.jpg",
+                "https://iili.io/HnpsS6v.jpg",
+                "https://iili.io/HnyK83N.jpg",
+                "https://iili.io/HnyKk4p.jpg"
+            ],
+            "mainImage": "https://iili.io/HnpsgFR.jpg",
+            "details": {
+                "title": "imaginary world",
+                "description": "I believe that the nature has massive impact on our personalities ,that makes each one of us has a world of his own creation",
+                "dimensions": "50x60",
+                "backgroundMaterial": "Wood",
+                "colorType": "Oil colors",
+                "inquiryLink": "https://www.facebook.com/Treeartvision"
+            }
+            
+        },{
+            "id":7,
+            "thumbnails": [
+                "https://iili.io/660Vgs.jpg",
+                "https://iili.io/660M1n.jpg",
+                "https://iili.io/660GqX.jpg"
+            ],
+            "mainImage": "https://iili.io/660Vgs.jpg",
+            "details": {
+                "title": "The Bride",
+                "description": "Here's to our new art piece The bride that'll liven up your home space.",
+                "dimensions": "60x80",
+                "backgroundMaterial": "Wood",
+                "colorType": "Oil colors",
+                "inquiryLink": "https://www.facebook.com/Treeartvision"
+            }
+        }
+        
+
+    ]
+}
+  
